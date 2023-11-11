@@ -17,8 +17,7 @@
     source env/bin/activate
     python3 -m pip install "fastapi[all]"
   ```
-  - Run
-    - Run the server
+  - Run the server
     ```python
     python3 -m uvicorn task_1.main:app --reload
     ```
